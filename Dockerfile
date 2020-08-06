@@ -2,12 +2,12 @@ FROM alpine:latest
 
 MAINTAINER Jim McVea <jmcvea@gmail.com>
 
-LABEL Description="Provides openstack client tools" Version="0.2"
+LABEL Description="Provides openstack client tools" Version="0.3"
 
 # Alpine-based installation
 # #########################
 RUN apk add --update \
-  python-dev \
+  python3-dev \
   py-pip \
   py-setuptools \
   ca-certificates \
